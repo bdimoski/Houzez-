@@ -1,0 +1,14 @@
+.logo-div {
+  margin-right: 20px;
+}
+
+.logo {
+  display: block;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: inherit;
+  margin-right: 20px;
+}

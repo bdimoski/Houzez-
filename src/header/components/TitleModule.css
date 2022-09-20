@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+.houzez-title-container {
+  position: absolute;
+  width: 100%;
+  margin: 150px auto;
+  text-align: center;
+  z-index: 50;
+  color: #fff;
+}
+.houzez-title-subtitle {
+  position: relative;
+  width: 750px;
+  margin: auto;
+}
+
+.houzez-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.houzez-subtitle {
+  font-family: "Work Sans" sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.5em;
+}

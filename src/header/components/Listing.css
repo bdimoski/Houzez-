@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+.transBtn {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 15px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.listingBtn {
+  background-color: #00aeef;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
