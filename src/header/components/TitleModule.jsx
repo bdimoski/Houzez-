@@ -2,9 +2,14 @@ import React from "react";
 
 import "./TitleModule.css";
 
-const TitleModule = () => {
+const TitleModule = ({ curLocation }) => {
+  const displayProp = curLocation === "/" ? "inherit" : "none";
+  console.log(curLocation);
   return (
-    <div className="houzez-title-container">
+    <div
+      className="houzez-title-container"
+      style={{ display: `${displayProp}` }}
+    >
       <div className="houzez-title-subtitle">
         <h2 className="houzez-title">Welcome to Houzez 2.0</h2>
         <p className="houzez-subtitle">

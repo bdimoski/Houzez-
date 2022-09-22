@@ -5,9 +5,11 @@ import "react-slideshow-image/dist/styles.css";
 import { BackgroundImg } from "../../assets/Background";
 import "./Slider.css";
 
-const Slider = () => {
+const Slider = ({ curLocation }) => {
+  const displayProp = curLocation === "/" ? "inherit" : "none";
+  console.log(curLocation);
   return (
-    <div className="slide-container">
+    <div className="slide-container" style={{ display: `${displayProp}` }}>
       <Fade
         pauseOnHover={false}
         arrows={false}

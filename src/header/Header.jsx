@@ -27,8 +27,8 @@ const Header = () => {
           <Listing />
         </div>
       </div>
-      <TitleModule />
-      <Slider />
+      <TitleModule curLocation={curLocation.pathname} />
+      <Slider curLocation={curLocation.pathname} />
       <div className="background-overlay"></div>
     </div>
   );
