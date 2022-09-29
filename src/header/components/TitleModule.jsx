@@ -4,7 +4,6 @@ import "./TitleModule.css";
 
 const TitleModule = ({ curLocation }) => {
   const displayProp = curLocation === "/" ? "inherit" : "none";
-  console.log(curLocation);
   return (
     <div
       className="houzez-title-container"

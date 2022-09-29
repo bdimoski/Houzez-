@@ -6,9 +6,9 @@ import Navbar from "./components/Navbar";
 import Favorites from "./components/Favorites";
 import Listing from "./components/Listing";
 import Slider from "./components/Slider";
+import TitleModule from "./components/TitleModule";
 
 import "./Header.css";
-import TitleModule from "./components/TitleModule";
 
 const Header = () => {
   const curLocation = useLocation();

@@ -7,7 +7,7 @@ import "./Slider.css";
 
 const Slider = ({ curLocation }) => {
   const displayProp = curLocation === "/" ? "inherit" : "none";
-  console.log(curLocation);
+
   return (
     <div className="slide-container" style={{ display: `${displayProp}` }}>
       <Fade
