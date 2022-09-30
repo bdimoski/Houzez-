@@ -3,7 +3,6 @@ import React from "react";
 import "./MansoryStyle.css";
 
 const VerticalCard = ({ title, subtitle, image, textLink, icon }) => {
-  console.log(icon);
   return (
     <div
       className="vertical-div hover-effect-masonary"

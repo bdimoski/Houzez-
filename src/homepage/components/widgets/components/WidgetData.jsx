@@ -5,19 +5,19 @@ import rent from "../../../../assets/widget-rent.png";
 
 export const widgetData = [
   {
-    img: helpHouse,
+    img: house,
     title: "LOOKING TO BUY",
   },
   {
-    img: house,
+    img: realEstate,
     title: "SELL YOUR HOME",
   },
   {
-    img: realEstate,
+    img: rent,
     title: "RENT A PLACE",
   },
   {
-    img: rent,
+    img: helpHouse,
     title: "NEED HELP?",
   },
 ];

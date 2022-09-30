@@ -1,4 +1,5 @@
 import React from "react";
+
 import GridImages from "./components/Grid Images/GridImages";
 import Title from "./components/Title/Title";
 import WhiteSpaceBottom from "./components/White Space Bottom/WhiteSpaceBottom";
@@ -13,7 +14,7 @@ const GridsWidgets = () => {
             <TopWhiteSpace />
             <Title />
             <GridImages />
-           <WhiteSpaceBottom />
+            <WhiteSpaceBottom />
           </div>
         </div>
       </div>

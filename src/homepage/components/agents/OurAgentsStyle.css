@@ -1,5 +1,10 @@
 .meet-our-agents-section {
   width: 100%;
+  background-color: #f8f8f8;
+}
+
+.meet-our-agents {
+  margin-top: 80px;
 }
 
 .agents-wrap {

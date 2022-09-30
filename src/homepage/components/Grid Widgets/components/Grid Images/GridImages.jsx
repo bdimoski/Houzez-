@@ -1,4 +1,5 @@
 import React from "react";
+
 import img1 from "../../../../../assets/grid1.jpg";
 import img2 from "../../../../../assets/grid2.jpg";
 import img3 from "../../../../../assets/grid3.jpg";
@@ -8,6 +9,7 @@ import img6 from "../../../../../assets/grid6.jpg";
 import img7 from "../../../../../assets/grid7.jpg";
 import img8 from "../../../../../assets/grid8.jpg";
 import img9 from "../../../../../assets/grid9.jpg";
+
 import "./GridImages.css";
 
 const GridImages = () => {

@@ -10,6 +10,7 @@
   left: 0;
   border-radius: 5px;
 }
+
 .hover-effect-img:hover:before {
   opacity: 1;
   cursor: pointer;

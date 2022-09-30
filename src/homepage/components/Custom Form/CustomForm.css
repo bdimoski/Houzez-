@@ -1,5 +1,6 @@
 .custom_form {
   width: 100%;
+  margin-top: 100px;
   left: 0;
   background-attachment: fixed;
   background-image: url("../../../assets/007.jpg");
@@ -8,6 +9,7 @@
   background-size: cover;
   position: relative;
 }
+
 .el-shape {
   overflow: hidden;
   position: absolute;
@@ -21,6 +23,7 @@
   bottom: -1px;
   transform: rotate(180deg);
 }
+
 .shape-bottom svg {
   height: 100px;
   transform: translateX(-50%) rotateY(180deg);
@@ -29,16 +32,19 @@
   position: relative;
   left: 50%;
 }
+
 .shape-top svg {
   display: block;
   width: calc(100% + 1.3px);
   position: relative;
   left: 50%;
 }
+
 .custom_form > .shape-top svg {
   height: 100px;
   transform: translateX(-50%) rotateY(180deg);
 }
+
 .shape-fill {
   fill: #fff;
   transform-origin: center;
@@ -54,10 +60,10 @@
   background-color: rgba(0, 66, 116, 0.45);
 }
 
-form input{
-    display: block;
-    width: 100%;
-    margin: 1.2rem 0;
-    padding: 8px;
-    border: 1px solid lightgrey;
+form input {
+  display: block;
+  width: 100%;
+  margin: 1.2rem 0;
+  padding: 8px;
+  border: 1px solid lightgrey;
 }

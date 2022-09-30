@@ -1,9 +1,9 @@
 import React from "react";
+
 import NoBackgroundCard from "./components/NoBackgroundCard";
 import SquareCard from "./components/SquareCard";
 import HorizontalCard from "./components/HorizontalCard";
 import VerticalCard from "./components/VerticalCard";
-
 import { ModernLayoutData } from "./components/ModernLayoutData";
 
 const ModernLayouts = () => {

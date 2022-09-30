@@ -15,8 +15,10 @@ const Widgets = () => {
       </div>
       <div className="widgets-container">
         <div className="widgets-title">
-          Houzez offers a wide range of drag-and-drop widgets to assist you in
-          designing your pages
+          <h2 className="widgets-main-title">
+            Houzez offers a wide range of drag-and-drop widgets to assist you in
+            designing your pages
+          </h2>
         </div>
         <div className="widgets-items">
           <div className="widget-cards">

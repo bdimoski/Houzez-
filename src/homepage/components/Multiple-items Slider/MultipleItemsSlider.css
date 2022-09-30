@@ -1,31 +1,37 @@
-.hover-effect::before{
-    opacity: 1;
-    content: '';
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,.75) 100%);
-    transition: 0.2s;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    
+.hover-effect::before {
+  opacity: 1;
+  content: "";
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.75) 100%
+  );
+  transition: 0.2s;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
-.hover-effect:hover:before{
-    opacity: 1;
-    cursor: pointer;
 
-    transition: 0.2s;
-    border-radius: 3px;
-    position: relative;
-    height: 100%;
-    width: 100%;
+.hover-effect:hover:before {
+  opacity: 1;
+  cursor: pointer;
+
+  transition: 0.2s;
+  border-radius: 3px;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .slick-dots {
-    position: relative;
-    bottom: -8px;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
+  position: relative;
+  bottom: -8px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
 }
