@@ -111,8 +111,7 @@ label {
   cursor: pointer;
 }
 
-span {
-  content: "";
+.red-span {
   padding-left: 0.2em;
   color: #ff0022;
 }

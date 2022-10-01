@@ -25,7 +25,7 @@ export const Form = () => {
                   <div className="form-divs">
                     <div className="first-name">
                       <label htmlFor="firstName">
-                        First Name <span>*</span>
+                        First Name <span className="red-span">*</span>
                       </label>
                       <input
                         type="text"
@@ -37,7 +37,7 @@ export const Form = () => {
                     </div>
                     <div className="last-name">
                       <label htmlFor="lastName">
-                        Last Name <span>*</span>
+                        Last Name <span className="red-span">*</span>
                       </label>
                       <input
                         type="text"
@@ -49,7 +49,7 @@ export const Form = () => {
                     </div>
                     <div className="email elementor-c">
                       <label htmlFor="email">
-                        Email <span>*</span>
+                        Email <span className="red-span">*</span>
                       </label>
                       <input
                         type="email"
@@ -61,7 +61,7 @@ export const Form = () => {
                     </div>
                     <div className="message elementor-c">
                       <label htmlFor="message">
-                        Message <span>*</span>
+                        Message <span className="red-span">*</span>
                       </label>
                       <textarea
                         name="message"
