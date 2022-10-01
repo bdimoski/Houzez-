@@ -22,32 +22,34 @@ export const Form = () => {
             <div className="contact-elements-container">
               <div className="form-element-container">
                 <form className="form-class">
-                  <div className="form-divs">
-                    <div className="first-name">
-                      <label htmlFor="firstName">
-                        First Name <span className="red-span">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        className="inputs"
-                        name="first_name"
-                        placeholder="Enter your name"
-                        required
-                      />
+                  <div className="form-divs w-full">
+                    <div className="md:flex w-full">
+                      <div className="first-name-contact flex-col md:w-[50%] w-[100%]">
+                        <label htmlFor="firstName">
+                          First Name <span className="red-span">*</span>
+                        </label>
+                        <input
+                          type="text"
+                          className="inputs"
+                          name="first_name"
+                          placeholder="Enter your name"
+                          required
+                        />
+                      </div>
+                      <div className="last-name-contact flex-col md:w-[50%] w-full">
+                        <label htmlFor="lastName">
+                          Last Name <span className="red-span">*</span>
+                        </label>
+                        <input
+                          type="text"
+                          className="inputs"
+                          name="Last_name"
+                          placeholder="Enter your last name"
+                          required
+                        />
+                      </div>
                     </div>
-                    <div className="last-name">
-                      <label htmlFor="lastName">
-                        Last Name <span className="red-span">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        className="inputs"
-                        name="Last_name"
-                        placeholder="Enter your last name"
-                        required
-                      />
-                    </div>
-                    <div className="email elementor-c">
+                    <div className="email-contact elementor-c w-full">
                       <label htmlFor="email">
                         Email <span className="red-span">*</span>
                       </label>
@@ -72,7 +74,7 @@ export const Form = () => {
                         required
                       ></textarea>
                     </div>
-                    <div className="contact-form-btn elementor-c">
+                    <div className="contact-form-btn elementor-c w-full">
                       <button type="submit" className="contact-form-submit-btn">
                         Submit
                       </button>

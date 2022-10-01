@@ -20,7 +20,7 @@
 
 .site-background {
   background-color: #004274;
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: row;
   height: 80px;

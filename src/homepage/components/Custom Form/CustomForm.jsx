@@ -10,7 +10,7 @@ import "./CustomForm.css";
 const CustomForm = () => {
   return (
     <section className="custom_form w-[100%]">
-      <div className="background-overlay"></div>
+      <div className="background-overlay-custom-form"></div>
       <ElShapeTop />
       <div className="container relative max-w-[1240px] py-0 px-4 m-auto">
         <TopSpace />

@@ -9,7 +9,7 @@ export const ContactForm = () => {
   return (
     <section className="contactForm">
       <div className="contactform-container">
-        <div className="contactform-row">
+        <div className="contactform-row md:flex md:flex-row flex flex-col">
           <Form />
           <Contact />
         </div>
