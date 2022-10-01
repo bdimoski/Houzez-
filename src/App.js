@@ -1,4 +1,5 @@
 import { BrowserRouter as Router } from "react-router-dom";
+import ContactUs from "./contactUs/ContactUs";
 
 import Header from "./header/Header";
 import HomePage from "./homepage/HomePage";
@@ -10,6 +11,7 @@ function App() {
         <Header />
       </Router>
       <HomePage />
+      <ContactUs />
     </div>
   );
 }
