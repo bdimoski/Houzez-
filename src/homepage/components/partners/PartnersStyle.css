@@ -1,0 +1,33 @@
+.partners-section {
+  background-color: #fff;
+  border: 1px solid #ececec;
+  padding: 15px 0px 15px 0px;
+}
+
+.partners-container {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.partner {
+  width: 20%;
+  padding: 10px;
+}
+
+.partner > img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  vertical-align: middle;
+  display: inline-block;
+}

@@ -1,0 +1,116 @@
+.widget-component {
+  width: 100%;
+  margin-bottom: 100px;
+  left: 0;
+  background-attachment: fixed;
+  background-image: url("../../../assets/section3-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.el-shape {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr;
+}
+
+.shape-bottom {
+  bottom: -1px;
+  transform: rotate(180deg);
+}
+
+.shape-bottom svg {
+  height: 100px;
+  transform: translateX(-50%) rotateY(180deg);
+  display: block;
+  width: calc(100% + 1.3px);
+  position: relative;
+  left: 50%;
+}
+
+.shape-top svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  position: relative;
+  left: 50%;
+}
+
+.widget-component > .shape-top svg {
+  height: 100px;
+  transform: translateX(-50%) rotateY(180deg);
+}
+
+.shape-fill {
+  fill: #fff;
+  transform-origin: center;
+  transform: rotateY(0deg);
+}
+
+.widgets-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  max-width: 960px;
+  min-height: 750px;
+}
+
+.widgets-items {
+  width: 100%;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+    -webkit-box-shadow 0.3s;
+}
+
+.widget-item {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 66, 116, 0.71);
+  color: #fff;
+  padding: 30px;
+  border-radius: 0px;
+  margin-left: 1px;
+  margin-bottom: -1px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.widget-image {
+  margin-bottom: 20px;
+}
+
+/*  font roboto da se vnesni samo */
+.widgets-title {
+  text-align: center;
+}
+
+.widgets-main-title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 1.35em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.background-overlay {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 66, 116, 0.45);
+}
+
+.widget-item:hover {
+  box-shadow: 0 70px 70px rgb(0 0 0 / 20%);
+  transform: translate(0, -10px);
+}
