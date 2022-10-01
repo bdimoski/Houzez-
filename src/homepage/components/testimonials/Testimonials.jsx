@@ -5,19 +5,19 @@ import "./TestimonialsStyle.css";
 
 const Testimonials = () => {
   return (
-    <section className="testimonials">
-      <div className="testimonials-container">
+    <section className="testimonials flex">
+      <div className="testimonials-container mx-auto">
         <div className="testimonials-title-subtitle">
-          <div className="testimonials-title">
+          <div className="testimonials-title text-center">
             <h2 className="s-title">Testimonials</h2>
           </div>
-          <div className="testimonials-subtitle">
+          <div className="testimonials-subtitle text-center">
             <p className="s-subtitle">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit
             </p>
           </div>
         </div>
-        <div className="testimonials-items">
+        <div className="testimonials-items md:flex md:flex-row">
           {testimonialsData.map((item, index) => (
             <div className="t-agent" key={index}>
               <div className="t-item">

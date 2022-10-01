@@ -5,10 +5,7 @@
 }
 
 .testimonials-container {
-  display: flex;
-  flex-direction: column;
   max-width: 1240px;
-  height: 640px;
   margin: 0 auto;
   padding: 15px;
   justify-content: center;
@@ -16,9 +13,7 @@
 }
 
 .testimonials-items {
-  display: flex;
   width: 100%;
-  flex-direction: row;
 }
 
 .s-title {
