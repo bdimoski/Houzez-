@@ -24,7 +24,7 @@
 }
 
 .contact-text {
-  padding: 50px 50px 1px 50px;
+  padding: 50px 40px 1px 40px;
   background-color: #fff;
 }
 
@@ -57,13 +57,11 @@ p {
 .form-divs {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-20px / 2);
-  margin-right: calc(-20px / 2);
   margin-bottom: -10px;
 }
 
 .inputs {
-  width: 90%;
+  width: 100%;
   border: 1px solid #adb0b3;
   line-height: 1.4;
   font-size: 15px;
@@ -73,7 +71,7 @@ p {
   color: #373a3c;
 }
 
-.first-name {
+.first-name-contact {
   margin-right: 17px;
 }
 
@@ -82,9 +80,9 @@ label {
   cursor: pointer;
 }
 
-.first-name,
-.last-name,
-.email,
+.first-name-contact,
+.last-name-contact,
+.email-contact,
 .message {
   margin-bottom: 5px;
 }
@@ -106,7 +104,7 @@ label {
   border-radius: 3px;
   font-weight: 400;
   min-height: 40px;
-  width: 95%;
+  width: 100%;
   font-size: 15px;
   cursor: pointer;
 }

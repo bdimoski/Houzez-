@@ -81,6 +81,7 @@
   transition: 0.2s;
   z-index: 1;
   cursor: pointer;
+  font-weight: 100;
 }
 
 .widget-image {
@@ -101,7 +102,7 @@
   text-align: center;
 }
 
-.background-overlay {
+.background-overlay-widget {
   height: 100%;
   width: 100%;
   top: 0;

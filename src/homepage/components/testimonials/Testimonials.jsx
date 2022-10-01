@@ -1,4 +1,5 @@
 import React from "react";
+import WhiteSpace from "../../../About Us/Blog Posts/White Space/WhiteSpace";
 
 import { testimonialsData } from "./components/testimonialsData";
 import "./TestimonialsStyle.css";
@@ -37,6 +38,7 @@ const Testimonials = () => {
             </div>
           ))}
         </div>
+      <WhiteSpace />
       </div>
     </section>
   );

@@ -4,10 +4,11 @@ import {
   FaTwitterSquare,
   FaFacebookSquare,
   FaYoutubeSquare,
-  FaLinkedinIn,
-  FaInstagram,
-  FaSkype,
+  FaLinkedin,
+  FaInstagramSquare,
 } from "react-icons/fa";
+
+import { BsSkype } from 'react-icons/bs'
 
 import "./ContactStyle.css";
 
@@ -56,32 +57,32 @@ const Contact = () => {
                 <div className="elementor-icons links">
                   <span className="elementor-item">
                     <a href="#" className="icons-links" target="_blank">
-                      <FaFacebookSquare />
+                      <FaFacebookSquare className="text-[#004274]"/>
                     </a>
                   </span>
                   <span className="elementor-item">
                     <a href="#" className="icons-links" target="_blank">
-                      <FaTwitterSquare />
+                      <FaTwitterSquare className="text-[#00AEEF]" />
                     </a>
                   </span>
                   <span className="elementor-item">
                     <a href="#" className="icons-links" target="_blank">
-                      <FaYoutubeSquare />
+                      <FaYoutubeSquare className="text-[#cd201f]" />
                     </a>
                   </span>
                   <span className="elementor-item">
                     <a href="#" className="icons-links" target="_blank">
-                      <FaLinkedinIn />
+                      <FaLinkedin className="text-[#0077b5]"/>
                     </a>
                   </span>
                   <span className="elementor-item">
                     <a href="#" className="icons-links" target="_blank">
-                      <FaInstagram />
+                      <FaInstagramSquare className="text-[#262626]"/>
                     </a>
                   </span>
                   <span className="elementor-item">
                     <a href="#" className="icons-links" target="_blank">
-                      <FaSkype />
+                      <BsSkype className="text-[#00aff0]" />
                     </a>
                   </span>
                 </div>

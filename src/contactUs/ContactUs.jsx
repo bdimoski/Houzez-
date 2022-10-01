@@ -7,7 +7,7 @@ import { SectionTop } from "./components/section-top/SectionTop";
 
 const ContactUs = () => {
   return (
-    <div>
+    <div className="bg-[#f8f8f8]">
       <SectionTop />
       <ContactForm />
       <RenderMap />

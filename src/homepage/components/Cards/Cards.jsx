@@ -5,7 +5,7 @@ import { cardsData } from "./cardsData";
 const Cards = () => {
   return (
     <div className="container max-w-[100%]">
-      <div className="w-full m-auto py-[8rem] px-4 text-white bg-[#004274] mt-[10px] mb-[0px] ">
+      <div className="w-full m-auto pb-[8rem] px-4 text-white bg-[#004274] mb-[0px] ">
         <div className="w-[60%] mx-auto grid md:grid-cols-3 gap-0.5 wrapper">
           {cardsData.map((item, index) => (
             <div

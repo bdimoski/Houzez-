@@ -11,7 +11,9 @@
 }
 
 .contact-widget-container {
-  padding: 30px 30px 15px 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px 15px 40px;
   background-color: #fff;
 }
 
@@ -27,8 +29,12 @@
 .elementor-icons-container {
   display: flex;
   flex-direction: row;
-  padding: 30px 10px;
+  padding: 30px 40px;
   margin-top: 10px;
+}
+
+.elementor-icons {
+  display: flex;
 }
 
 .icons-links > svg {
