@@ -6,20 +6,20 @@ import "./OurAgentsStyle.css";
 
 const OurAgents = () => {
   return (
-    <section className="meet-our-agents-section">
+    <section className="meet-our-agents-section flex">
       <div className="agents-background-overlay"></div>
-      <div className="agents-container">
+      <div className="agents-container mx-auto">
         <div className="agents-wrap">
           <div className="elementor-agents-wrap">
-            <div className="meet-our-agents">
-              <div className="title-container">
+            <div className="meet-our-agents md:mt-[80px] mt-0">
+              <div className="title-container text-center">
                 <h2 className="agents-title">Meet Our Agents</h2>
                 <p className="agents-subtitle">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit
                 </p>
               </div>
             </div>
-            <div className="agent-group">
+            <div className="agent-group md:flex md:flex-row">
               {ourAgentsData.map((agent, index) => (
                 <div className="agent-info" key={index}>
                   <div className="agent-img">

@@ -3,10 +3,6 @@
   background-color: #f8f8f8;
 }
 
-.meet-our-agents {
-  margin-top: 80px;
-}
-
 .agents-wrap {
   display: flex;
 }
@@ -14,7 +10,6 @@
 .elementor-agents-wrap {
   display: flex;
   max-width: 1240px;
-  height: 620px;
   flex-direction: column;
   margin: 10px auto;
   align-items: center;
@@ -26,8 +21,6 @@
 }
 
 .agent-group {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
@@ -40,6 +33,7 @@
 }
 
 .agent-info:hover {
+  transition: 0.25s;
   box-shadow: 0 70px 70px rgb(0 0 0 / 20%);
   transform: translate(0, -10px);
 }
