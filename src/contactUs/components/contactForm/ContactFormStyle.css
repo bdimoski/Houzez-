@@ -1,0 +1,15 @@
+.contactForm {
+  position: relative;
+}
+
+.contactform-container {
+  position: relative;
+  display: flex;
+  max-width: 1140px;
+  margin: 100px auto;
+}
+
+.contactform-row {
+  display: flex;
+  width: 100%;
+}

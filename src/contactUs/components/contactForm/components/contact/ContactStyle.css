@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+  .contact-contact {
+    width: 30%;
+    margin-left: 3%;
+  }
+}
+
+.contact-widget-wrapper {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contact-widget-container {
+  padding: 30px 30px 15px 30px;
+  background-color: #fff;
+}
+
+.contact-elementor {
+  padding: 30px 30px 15px 30px;
+  background-color: #fff;
+}
+
+.bold-title {
+  font-weight: 600;
+}
+
+.elementor-icons-container {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 10px;
+  margin-top: 10px;
+}
+
+.icons-links > svg {
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,25 @@
+.render-map {
+  width: 100%;
+}
+
+.adress {
+  width: 80%;
+  margin: auto;
+  font-size: 15px;
+  line-height: 1.5em;
+  padding: 30px 30px 10px;
+  margin-bottom: 30px;
+}
+address > p {
+  margin-bottom: 16px;
+}
+
+.adress-span {
+  color: #000;
+  font-weight: 600;
+}
+
+.adress-link {
+  text-decoration: none;
+  color: #00aeef;
+}
