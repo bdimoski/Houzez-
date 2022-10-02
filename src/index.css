@@ -12,6 +12,24 @@ code {
     monospace;
 }
 
+.top-to-btm {
+  position: relative;
+}
+.icon-position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+.icon-style {
+  background-color: #00aeef;
+  border-radius: 3px;
+  height: 42px;
+  width: 42px;
+  color: #fff;
+  cursor: pointer;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
