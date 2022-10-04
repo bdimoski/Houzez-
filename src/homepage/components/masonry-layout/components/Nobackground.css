@@ -1,0 +1,16 @@
+.no-background-title {
+  margin: 0;
+  color: #000;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.3em;
+  letter-spacing: -1px;
+}
+
+.no-background-text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #7a7a7a;
+}

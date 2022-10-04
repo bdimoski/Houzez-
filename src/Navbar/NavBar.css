@@ -1,0 +1,131 @@
+.menu-items {
+    position: relative;
+    font-size: 14px;
+  }
+  
+  .menu-items a {
+    display: flex;
+    font-size: 14px;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  
+  .menu-items button {
+    color: inherit;
+    font-size: inherit;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .menu-items a
+   {
+    text-align: left;
+    width: 100%;
+    padding: 2.4rem 1rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .menu-items a {
+      padding: 0.8rem 1rem;
+      border-bottom: 1px solid gray;
+      color: #2e3e49;
+    }
+  }
+
+.nav-items{
+    padding: 0.7rem 1rem;
+  }
+  
+  .menu-items button{
+    text-align: left;
+    padding: 35px 20px 35px 20px
+  }
+  
+  .menu-items a:hover,
+  .menu-items button:hover {
+    background-color: inherit;
+  }
+  
+  .arrow::after {
+    content: "";
+    display: inline-block;
+    margin-left: 0.28em;
+    vertical-align: 0.09em;
+    border-top: 0.42em solid;
+    border-right: 0.32em solid transparent;
+    border-left: 0.32em solid transparent;
+  }
+  
+  .dropdown {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+      0 4px 6px -2px rgba(71, 63, 79, 0.16);
+    font-size: 0.875rem;
+    z-index: 3;
+    min-width: 10rem;
+    list-style: none;
+    background-color: white;
+    display: none;
+  }
+  
+  .dropdown.show {
+    display: block;
+  }
+  
+  .dropdown .dropdown-submenu {
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+
+  .submeni a{
+    text-align: left;
+    width: 100%;
+    padding: 0.7rem 1rem;
+    color: #2e3e49;
+    border-bottom:1px solid #e6e6e6 ;
+    font-weight: 300;
+  }
+  
+  .home-background {
+    background-color: transparent;
+    position: absolute;
+    z-index: 40;
+  }
+  .site-background {
+    background-color: #004274;
+    position: relative;
+    z-index: 50;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .mobile-background {
+      background-color: #fff;
+    }
+  }
+  
+  .background-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 66, 116, 0.35) 0%,
+      #004274 100%
+    );
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    transition-property: background, border-radius, opacity;
+    transition-duration: 0.3s, 0.3s, 0.3s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
+    z-index: 20;
+  }

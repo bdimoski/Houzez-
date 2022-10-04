@@ -1,0 +1,41 @@
+.section-top {
+  position: relative;
+  background-image: url("../../../assets/contact-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.section-top-overlay {
+  background-color: #004274;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.section-top-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 200px;
+  max-width: 1140px;
+}
+
+.section-top-row {
+  display: flex;
+  width: 100%;
+}
+
+.section-top-title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1;
+}
