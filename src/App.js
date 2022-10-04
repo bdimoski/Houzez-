@@ -3,14 +3,15 @@ import AboutUs from "./About Us/AboutUs";
 import ContactUs from "./contactUs/ContactUs";
 import Footer from "./Footer/Footer";
 
-import Header from "./header/Header";
+
 import HomePage from "./homepage/HomePage";
+import Navbar from "./Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
+        < Navbar/>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<ContactUs />} />

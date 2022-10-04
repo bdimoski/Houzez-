@@ -2,7 +2,6 @@ import { React, useState, useEffect, useRef } from "react";
 import Dropdown from "./Dropdown";
 import { NavLink } from "react-router-dom";
 
-import "./MenuItems.css";
 
 export const MenuItems = ({ items, depthLevel }) => {
   const [dropdown, setDropdown] = useState(false);
@@ -33,22 +32,23 @@ export const MenuItems = ({ items, depthLevel }) => {
 
   return (
     <li
-      className="menu-items"
+      className="menu-items flex text-white items-center hover:bg-[#00aeff1a]"
       ref={ref}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
       {items.submenu ? (
         <>
-          <button
-            type="button"
+          <NavLink
+          to={items.path}
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
             onClick={() => setDropdown((prev) => !prev)}
+            className='flex nav-items'
           >
             {items.title}
-            {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
-          </button>
+            {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow ml-1 align-middle" />}
+          </NavLink>
           <Dropdown
             depthLevel={depthLevel}
             submenus={items.submenu}
@@ -56,7 +56,7 @@ export const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <NavLink to={items.path}>{items.title}</NavLink>
+        <NavLink className='' to={items.path}>{items.title}</NavLink>
       )}
     </li>
   );

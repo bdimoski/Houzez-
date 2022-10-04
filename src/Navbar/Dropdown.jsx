@@ -1,7 +1,6 @@
 import React from "react";
 import { MenuItems } from "./MenuItems";
 
-import "./Dropdown.css";
 
 const Dropdown = ({ submenus, dropdown, depthLevel }) => {
   depthLevel = depthLevel + 1;
@@ -9,7 +8,9 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
   return (
     <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
       {submenus.map((submenu, index) => (
-        <MenuItems items={submenu} key={index} depthLevel={depthLevel} />
+        <div className="submeni" key={index}>
+          <MenuItems items={submenu} key={index} depthLevel={depthLevel} />
+        </div>
       ))}
     </ul>
   );
