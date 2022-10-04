@@ -2,12 +2,11 @@ import React from "react";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
-import { BackgroundImg } from "../../assets/Background";
+import { BackgroundImg } from "../assets/Background";
 import "./Slider.css";
 
 const Slider = ({ curLocation }) => {
   const displayProp = curLocation === "/" ? "inherit" : "none";
-
   return (
     <div className="slide-container" style={{ display: `${displayProp}` }}>
       <Fade

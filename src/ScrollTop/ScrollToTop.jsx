@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { FaAngleUp } from "react-icons/fa";
 
-import "./index.css";
+import "./ScrollToTop.css";
 
 const ScrollToTop = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
