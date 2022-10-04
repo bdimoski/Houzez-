@@ -30,7 +30,7 @@ const Navbar = () => {
         } w-full`}
       >
         <div className="relative">
-          <div className="flex items-center pl-4 h-24 max-w-[1240px] mx-auto text-white">
+          <div className="flex items-center px-12 h-24 max-w-[1240px] mx-auto text-white">
             <BrowserView>
               <NavPc />
             </BrowserView>
