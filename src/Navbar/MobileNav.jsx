@@ -62,7 +62,7 @@ const MobileNav = () => {
       <ul
         className={
           isOpenFavs
-            ? "fixed right-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 "
+            ? "fixed right-0 top-0 w-[40%] h-[21%] border-r border-r-gray-900 bg-white ease-in-out duration-500 justify-center"
             : "ease-in-out duration-0 fixed left-[-100%]"
         }
       >

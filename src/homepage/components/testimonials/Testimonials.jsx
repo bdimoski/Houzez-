@@ -38,7 +38,7 @@ const Testimonials = () => {
             </div>
           ))}
         </div>
-      <WhiteSpace />
+        <WhiteSpace />
       </div>
     </section>
   );

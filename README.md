@@ -2,7 +2,7 @@
 
 > Property website-listing different properties for rent and sale.
 
-![screenshot](https://freeimage.host/i/QfHpNp)
+![screenshot](./src/assets/app-screenshot.png)
 
 As mentioned, the website lists unique properties for rent and for sale. We have three functional nav sections which are:
 

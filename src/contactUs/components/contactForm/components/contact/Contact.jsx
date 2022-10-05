@@ -8,7 +8,7 @@ import {
   FaInstagramSquare,
 } from "react-icons/fa";
 
-import { BsSkype } from 'react-icons/bs'
+import { BsSkype } from "react-icons/bs";
 
 import "./ContactStyle.css";
 
@@ -57,7 +57,7 @@ const Contact = () => {
                 <div className="elementor-icons links">
                   <span className="elementor-item">
                     <a href="#" className="icons-links" target="_blank">
-                      <FaFacebookSquare className="text-[#004274]"/>
+                      <FaFacebookSquare className="text-[#004274]" />
                     </a>
                   </span>
                   <span className="elementor-item">
@@ -72,12 +72,12 @@ const Contact = () => {
                   </span>
                   <span className="elementor-item">
                     <a href="#" className="icons-links" target="_blank">
-                      <FaLinkedin className="text-[#0077b5]"/>
+                      <FaLinkedin className="text-[#0077b5]" />
                     </a>
                   </span>
                   <span className="elementor-item">
                     <a href="#" className="icons-links" target="_blank">
-                      <FaInstagramSquare className="text-[#262626]"/>
+                      <FaInstagramSquare className="text-[#262626]" />
                     </a>
                   </span>
                   <span className="elementor-item">
