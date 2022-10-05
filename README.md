@@ -68,13 +68,13 @@ npm start;
 
 - GitHub: [@bdimoski](https://github.com/bdimoski)
 - Twitter: [@BojanDimoskii](https://twitter.com/BojanDimoskii)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bojandimoski)
+- LinkedIn: [BojanDimoski](https://www.linkedin.com/in/bojandimoski)
 
 �� **Vasko Tanchev**
 
 - GitHub: [@vTanchev](https://github.com/vTanchev)
 - Twitter: [@xin0w](https://twitter.com/xin0w)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/vasko-tanchev)
+- LinkedIn: [vTanchev](https://www.linkedin.com/in/vasko-tanchev)
 
 ## �� Contributing
 
