@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Houzez-Real-Estate-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Property website-listing different properties for rent and sale.
 
-## Available Scripts
+![screenshot](https://freeimage.host/i/QfHpNp)
 
-In the project directory, you can run:
+As mentioned, the website lists unique properties for rent and for sale. We have three functional nav sections which are:
 
-### `npm start`
+Home: The main page of the website where you can find all the unique properties along with the contact info of the sales agents.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Contact: Where our offices are located, including the detailed contact information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+About us: A bit additional information about the company and the many types of services provided.
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- styled-components
+- tailwind-css
+- react-router-dom
+- react-slidesshow-image
+- react-google-maps
+- react-slick
+- react-slick-carousel
+- react-icons
 
-### `npm run build`
+## Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Live Demo Link](https://houzez-real-estate-react.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* To get a local copy up and running follow these simple example steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* You need npm to be installed on your local machine. For details please use the following site :https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-## Learn More
+### Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Next you need to clone the repository on your local machine with the following command line:
+git clone https://github.com/bdimoski/Houzez-.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Install
 
-### Code Splitting
+* To install the project you need to enter the directory you've cloned. Open a terminal and follow these next steps:
+* npm install (to install all the necessary modules and dependencies);
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Usage
 
-### Analyzing the Bundle Size
+* To run this project localy simply run the following line:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm start;
 
-### Making a Progressive Web App
+* And the project should be deployed on your machine and you can access it on a browser by default on the URL: localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Authors
 
-### Advanced Configuration
+�� **Bojan Dimoski**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- GitHub: [@bdimoski](https://github.com/bdimoski)
+- Twitter: [@BojanDimoskii](https://twitter.com/BojanDimoskii)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bojandimoski)
 
-### Deployment
+�� **Vasko Tanchev**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- GitHub: [@vTanchev](https://github.com/vTanchev)
+- Twitter: [@xin0w](https://twitter.com/xin0w)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/vasko-tanchev)
 
-### `npm run build` fails to minify
+## �� Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- https://default.houzez.co/
+
+## �� License
+
+This project is [MIT](lic.url) licensed.
