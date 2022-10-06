@@ -6,6 +6,7 @@ import Favorites from "./Favorites";
 import { MenuItems } from "./MenuItems";
 import { NavbarData } from "./navBarData";
 import Listing from "./Listing";
+import './MobileNav.css'
 
 const MobileNav = () => {
   const [isOpenHamburger, setIsOpenHamburger] = useState(false);
@@ -62,7 +63,7 @@ const MobileNav = () => {
       <ul
         className={
           isOpenFavs
-            ? "fixed right-0 top-0 w-[40%] h-[21%] border-r border-r-gray-900 bg-white ease-in-out duration-500 justify-center"
+            ? "favs fixed right-0 top-0 w-[40%] h-[20%] border-r border-r-gray-900 bg-white ease-in-out duration-500"
             : "ease-in-out duration-0 fixed left-[-100%]"
         }
       >

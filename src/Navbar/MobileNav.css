@@ -1,0 +1,11 @@
+@media only screen and (max-width: 376px) {
+    .favs{
+        height: 24%;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .favs{
+        height: 27%;
+    }
+}
